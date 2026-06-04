@@ -260,7 +260,8 @@ select.form-control { cursor:pointer; }
   .header-logo { width:42px; height:42px; }
 }
 @media(max-width:480px) {
-  .header-nav { display:none; }
+  .header-nav { display:flex; gap:4px; flex-wrap:wrap; }
+  .nav-btn { padding:5px 8px; font-size:11px; }
   .admin-main { padding:14px; }
   .container { padding:14px; }
   .month-grid { grid-template-columns:repeat(5,1fr); gap:5px; }
