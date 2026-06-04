@@ -304,7 +304,7 @@ select.form-control { cursor:pointer; }
         <label class="form-label">Password Admin</label>
         <input type="password" class="form-control" id="loginPass" placeholder="Masukkan password..." onkeypress="if(event.key==='Enter')doLogin()">
       </div>        
-      <button class="nav-btn" onclick="showLoginPage()" style="background:rgba(255,255,255,0.2);border:1.5px solid rgba(255,255,255,0.5);font-weight:600;display:flex;align-items:center;gap:6px;">🔐 <span class="nav-btn-label">Panel Admin</span></button>
+      <button class="btn btn-primary w-full" onclick="doLogin()" style="justify-content:center;width:100%;margin-bottom:16px">🔐 Masuk ke Panel Admin</button>
       <hr style="margin:16px 0;border:none;border-top:1px solid var(--border)">
       <button class="btn btn-secondary w-full" onclick="gotoPublic()" style="justify-content:center;width:100%">← Kembali ke Tampilan Publik</button>
     </div>
@@ -323,7 +323,7 @@ select.form-control { cursor:pointer; }
         <p>Program Juni 2026 – Maret 2027 · Monitoring Real-Time</p>
       </div>
       <div class="header-nav">
-        <button class="nav-btn" onclick="showLoginPage()" style="background:rgba(255,255,255,0.2);border:1.5px solid rgba(255,255,255,0.5);font-weight:600;display:flex;align-items:center;gap:6px;">🔐 Panel Admin</button>
+        <button class="nav-btn" onclick="showLoginPage()" style="background:rgba(255,255,255,0.2);border:1.5px solid rgba(255,255,255,0.5);font-weight:600;display:flex;align-items:center;gap:6px;">🔐 <span class="nav-btn-label">Panel Admin</span></button>
       </div>
     </div>
   </header>
